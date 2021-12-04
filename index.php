@@ -32,9 +32,9 @@ if(isset($_POST['submit']) ) {
 <html lang="en-US">
 	<head>
 	<title>(QR) Code Generator</title>
-	<link rel="stylesheet" href="libs/css/bootstrap.min.css">
-	<link rel="stylesheet" href="libs/style.css">
-	<script src="libs/navbarclock.js"></script>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="navbarclock.js"></script>
 	</head>
 	<body onLoad="startTime()">
 		<nav class="navbar-inverse" style="background-color: blue" role="navigation">
