@@ -7,7 +7,7 @@ if(!file_exists($f)){
 	fclose ($handle);
 }
  
-include('libs/phpqrcode/qrlib.php'); 
+include('qrlib.php'); 
 
 function getUsernameFromEmail($email) {
 	$find = '@';
